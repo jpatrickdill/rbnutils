@@ -5,6 +5,7 @@ import ValueHooks from "./sections/hooks/ValueHooks";
 const sections = [
     {
         title: "Hooks",
+        element: null,
         sections: [
             {
                 title: "HoverHooks States",
@@ -33,6 +34,7 @@ function App() {
                 </h2>
 
                 {section.element ? (
+                    // @ts-ignore
                     (section.element instanceof Function) ? section.element() : section.element
                 ) : null}
 
