@@ -1,3 +1,9 @@
-import * as hooks from "./hooks";
+import {
+    useHover, useMappedHover,
+    useDeferUntil
+} from "./hooks";
 
-export {hooks};
+export {
+    useHover, useMappedHover,
+    useDeferUntil
+}
