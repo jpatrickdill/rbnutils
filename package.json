@@ -1,6 +1,6 @@
 {
   "name": "rbnutils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React utilities I use in my projects, published so I can get to them easily",
   "main": "dist/index.js",
   "author": "Patrick/paricdil/rbn (https://paric.dev)",
@@ -10,8 +10,11 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
-    "react": ">=16.8.0",
-    "@types/react": ">=16.8.0"
+    "@types/react": ">=16.8.0",
+    "react": ">=16.8.0"
   },
-  "keywords": ["react", "hooks"]
+  "keywords": [
+    "react",
+    "hooks"
+  ]
 }
