@@ -33,7 +33,7 @@ export function useHover(): HoverHookReturn {
     return [hovering, hoverProps];
 }
 
-export type SingleHoverHookReturn = [
+export type MappedHoverReturn = [
     string | number | undefined,
     (id: string | number) => {
         onMouseEnter: () => void,
@@ -41,7 +41,7 @@ export type SingleHoverHookReturn = [
     }
 ]
 
-export function useMappedHover(): SingleHoverHookReturn {
+export function useMappedHover(): MappedHoverReturn {
     /*
         HoverHooks utility for use in mapped elements.
 
