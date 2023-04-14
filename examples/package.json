@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx kill-port 3000 && vite --port 3000",
-    "build": "tsc && vite build --outDir ../docs",
+    "build": "tsc && vite build --emptyOutDir --outDir ../docs",
     "preview": "vite preview"
   },
   "dependencies": {
