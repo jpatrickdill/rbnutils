@@ -1,6 +1,6 @@
 {
   "name": "rbnutils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React utilities I use in my projects, published so I can get to them easily",
   "main": "dist/index.js",
   "author": "Patrick/paricdil/rbn (https://paric.dev)",
